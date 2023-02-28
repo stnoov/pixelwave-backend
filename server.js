@@ -47,12 +47,12 @@ const getData = async (objectId) => {
 const canvasData = [];
 
 async function loadCanvasData() {
-    canvasData.push(await getData('0x20f3fcd27d94a9d286d996c96b4e2d7c8f92758a'));
-    canvasData.push(await getData('0x63f283c5590564b8a4d2c8f3ad5beedf7c0068c9'));
-    canvasData.push(await getData('0x7b31d334d1a2de0af417616a06df3fe45bd81292'));
-    canvasData.push(await getData('0x36a8cf04f663957ae5fb73f2be362db41969bc74'));
-    canvasData.push(await getData('0xfc6d8024781ad58e4524aaf1b059a1a793dff246'));
-    canvasData.push(await getData('0x6fadc1dccf9a7894b30022a89ce4796e81b7269c'));
+    canvasData.push(await getData('0x672905a35012ba64c20be9c83bee3808abae0147'));
+    canvasData.push(await getData('0xfb5c5f143ceebc7999574a53a85e412eb75409f2'));
+    canvasData.push(await getData('0x1aa615a89c0ade912b96b10999eb7aa7573785d3'));
+    canvasData.push(await getData('0x170a3812a86dd728778f765877a04a6fdb45667d'));
+    canvasData.push(await getData('0x0c8e5a5c5a71909c16fd0bd6a0346317bb333329'));
+    canvasData.push(await getData('0x7758fad9fc04f3a39782f45171247f043df22faa'));
 }
 
 loadCanvasData().then(() => {
