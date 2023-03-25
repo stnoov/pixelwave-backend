@@ -8,7 +8,7 @@ const headers = {
 
 
 const getObjectData = async (objectId) => {
-    const res = await axios.post('https://fullnode.devnet.sui.io:443', {
+    const res = await axios.post('https://pixelwave-ws.onrender.com', {
         'jsonrpc': '2.0',
         'id': '1',
         'method': 'sui_getObject',
